@@ -2,7 +2,6 @@
 # coding: utf-8
 
 # In[1]:
-# test
 
 #Exercise 1 OscarQuispe
 import requests
