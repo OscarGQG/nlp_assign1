@@ -86,7 +86,7 @@ print("Tokenized tweet without stopwords:",tokenized_t3_without_stopwords)
 
 # In[11]:
 
-
+#Tokenization words
 tokenized_t4= word_tokenize(n_df.iloc[3])
 print("Tokenized tweet:",tokenized_t4)
 tokenized_t4_without_stopwords = [i for i in tokenized_t4 if not i in stop_words]
@@ -102,7 +102,7 @@ w2v_model = api.load('word2vec-google-news-300')
 
 # In[13]:
 
-
+#usin w2vmdodel
 w2v_model.most_similar('graduation')
 
 
